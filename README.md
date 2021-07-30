@@ -1,6 +1,3 @@
-# NOT YET WORKING
-
-
 # TwitchAPICall - https://replit.com/@reisu1337/TwitchAPICall
 A simple call to the Twitch API to check if a user is live. Great for use in conjunction with the discord.py library for a Discord bot, or any other chatbot/automotation function.
 Free to use, edit and redistribute in line with the MIT License.  
@@ -9,7 +6,9 @@ Free to use, edit and redistribute in line with the MIT License.
 
 2) Copy your client ID and generate a client secret, and put them into the CLIENT_ID and CLIENT_SECRET variables, if publishing publicly consider using enivronment variables for security - https://docs.replit.com/archive/secret-keys  
 
-3) Replace the name "reisu1337" with the name of the Twitch user you would like to track  
+3) At the bottom of the code, call the isLive function with the username of the streamer passed as a string, I.E  
+
+`isLive("reisu1337")`
 
 ## Socials
 Twitch - https://www.twitch.tv/reisu1337  
