@@ -22,9 +22,9 @@ def isLive(username):
   r2 = requests.get(url=URL2, headers=HEADERS)
 
   data = r2.json()
-
+  
   for i in range(len(data["data"])):
     if (data["data"][i]["broadcaster_login"]) == username or (data["data"][i]["display_name"]) == username:
-      return (data["data"][i]["is_live"])
+      return (data["data"][i])
 
 print(isLive("reisu1337"))
